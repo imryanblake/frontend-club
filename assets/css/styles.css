@@ -1,8 +1,3 @@
-/* Fondo general */
-body {
-  background-color: #0b0f14;
-}
-
 /* Grid */
 .students-wall {
   grid-template-columns: repeat(auto-fill, minmax(20px, 1fr));
@@ -19,7 +14,7 @@ body {
 
 /* Estado bloqueado */
 .student-box.locked {
-  background-color: #7898cf;
+  background-color: #44526a;
   opacity: 0.6;
 }
 
@@ -48,4 +43,17 @@ body {
 /* Flecha del tooltip */
 .tooltip.bs-tooltip-top .tooltip-arrow::before {
   border-top-color: #1f2937;
+}
+
+
+.student-box {
+  position: relative;
+}
+
+.student-trigger {
+  position: absolute;
+  inset: 0;
+  background: transparent;
+  border: none;
+  cursor: pointer;
 }

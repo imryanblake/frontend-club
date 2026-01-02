@@ -4,14 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
+    <meta name="description" content="La mejor manera de aprender a programar es practicando todos los días.">
     <meta name="keywords" content="">
     <meta name="author" content="Frontend Club">
     <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
     <link rel="stylesheet" href="assets/css/styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <title>Frontend Club - Wall</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flag-icons/css/flag-icons.min.css" />
+
+    <title>Frontend Club - Bienvenido</title>
 </head>
 
 <body class="d-flex flex-column min-vh-100">
@@ -20,7 +22,9 @@
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container">
             <!-- Brand name -->
-            <a class="navbar-brand" href="#">Frontend Club</a>
+            <a class="navbar-brand" href="#">
+                <img src="assets/images/logo.png" alt="logo frontend club" style="width: 50px;" class="rounded-pill">
+            </a>
             <!-- Button mobile -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -53,8 +57,12 @@
         <div class="students-wall d-grid">
 
             <!-- Alumno con reto completado -->
-            <div class="student-box completed bg-primary" data-bs-toggle="tooltip" data-bs-placement="top"
+            <div class="student-box completed bg-primary" role="button" data-bs-toggle="tooltip" data-bs-placement="top"
                 title="Ana López">
+                <button class="student-trigger" type="button" data-bs-toggle="modal" data-bs-target="#studentModal"
+                    data-name="Ana López" data-role="Frontend Developer"
+                    data-avatar="https://randomuser.me/api/portraits/women/44.jpg" data-github="https://github.com/ana"
+                    data-linkedin="#" data-codepen="#"></button>
             </div>
 
             <!-- Alumno con otro reto -->
@@ -63,174 +71,174 @@
             </div>
 
             <!-- Alumno bloqueado -->
-            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Bloque disponible">
+            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Disponible">
             </div>
 
-            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Bloque disponible">
+            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Disponible">
             </div>
-            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Bloque disponible">
+            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Disponible">
             </div>
-            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Bloque disponible">
+            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Disponible">
             </div>
-            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Bloque disponible">
+            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Disponible">
             </div>
-            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Bloque disponible">
+            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Disponible">
             </div>
-            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Bloque disponible">
+            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Disponible">
             </div>
-            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Bloque disponible">
+            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Disponible">
             </div>
-            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Bloque disponible">
+            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Disponible">
             </div>
-            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Bloque disponible">
+            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Disponible">
             </div>
-            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Bloque disponible">
+            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Disponible">
             </div>
-            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Bloque disponible">
+            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Disponible">
             </div>
-            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Bloque disponible">
+            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Disponible">
             </div>
-            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Bloque disponible">
+            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Disponible">
             </div>
-            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Bloque disponible">
+            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Disponible">
             </div>
-            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Bloque disponible">
+            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Disponible">
             </div>
-            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Bloque disponible">
+            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Disponible">
             </div>
-            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Bloque disponible">
+            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Disponible">
             </div>
-            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Bloque disponible">
+            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Disponible">
             </div>
-            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Bloque disponible">
+            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Disponible">
             </div>
-            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Bloque disponible">
+            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Disponible">
             </div>
-            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Bloque disponible">
+            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Disponible">
             </div>
-            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Bloque disponible">
+            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Disponible">
             </div>
-            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Bloque disponible">
+            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Disponible">
             </div>
-            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Bloque disponible">
+            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Disponible">
             </div>
-            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Bloque disponible">
+            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Disponible">
             </div>
-            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Bloque disponible">
+            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Disponible">
             </div>
-            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Bloque disponible">
+            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Disponible">
             </div>
-            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Bloque disponible">
+            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Disponible">
             </div>
-            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Bloque disponible">
+            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Disponible">
             </div>
-            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Bloque disponible">
+            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Disponible">
             </div>
-            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Bloque disponible">
+            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Disponible">
             </div>
-            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Bloque disponible">
+            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Disponible">
             </div>
-            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Bloque disponible">
+            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Disponible">
             </div>
-            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Bloque disponible">
+            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Disponible">
             </div>
-            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Bloque disponible">
+            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Disponible">
             </div>
-            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Bloque disponible">
+            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Disponible">
             </div>
-            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Bloque disponible">
+            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Disponible">
             </div>
-            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Bloque disponible">
+            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Disponible">
             </div>
-            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Bloque disponible">
+            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Disponible">
             </div>
-            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Bloque disponible">
+            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Disponible">
             </div>
-            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Bloque disponible">
+            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Disponible">
             </div>
-            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Bloque disponible">
+            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Disponible">
             </div>
-            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Bloque disponible">
+            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Disponible">
             </div>
-            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Bloque disponible">
+            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Disponible">
             </div>
-            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Bloque disponible">
+            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Disponible">
             </div>
-            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Bloque disponible">
+            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Disponible">
             </div>
-            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Bloque disponible">
+            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Disponible">
             </div>
-            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Bloque disponible">
+            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Disponible">
             </div>
-            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Bloque disponible">
+            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Disponible">
             </div>
-            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Bloque disponible">
+            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Disponible">
             </div>
-            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Bloque disponible">
+            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Disponible">
             </div>
-            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Bloque disponible">
+            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Disponible">
             </div>
-            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Bloque disponible">
+            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Disponible">
             </div>
-            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Bloque disponible">
+            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Disponible">
             </div>
-            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Bloque disponible">
+            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Disponible">
             </div>
-            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Bloque disponible">
+            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Disponible">
             </div>
-            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Bloque disponible">
+            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Disponible">
             </div>
-            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Bloque disponible">
+            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Disponible">
             </div>
-            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Bloque disponible">
+            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Disponible">
             </div>
-            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Bloque disponible">
+            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Disponible">
             </div>
-            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Bloque disponible">
+            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Disponible">
             </div>
-            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Bloque disponible">
+            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Disponible">
             </div>
-            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Bloque disponible">
+            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Disponible">
             </div>
-            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Bloque disponible">
+            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Disponible">
             </div>
-            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Bloque disponible">
+            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Disponible">
             </div>
-            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Bloque disponible">
+            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Disponible">
             </div>
-            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Bloque disponible">
+            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Disponible">
             </div>
-            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Bloque disponible">
+            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Disponible">
             </div>
-            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Bloque disponible">
+            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Disponible">
             </div>
-            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Bloque disponible">
+            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Disponible">
             </div>
-            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Bloque disponible">
+            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Disponible">
             </div>
-            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Bloque disponible">
+            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Disponible">
             </div>
-            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Bloque disponible">
+            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Disponible">
             </div>
-            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Bloque disponible">
+            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Disponible">
             </div>
-            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Bloque disponible">
+            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Disponible">
             </div>
-            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Bloque disponible">
+            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Disponible">
             </div>
-            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Bloque disponible">
+            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Disponible">
             </div>
-            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Bloque disponible">
+            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Disponible">
             </div>
-            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Bloque disponible">
+            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Disponible">
             </div>
-            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Bloque disponible">
+            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Disponible">
             </div>
-            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Bloque disponible">
+            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Disponible">
             </div>
-            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Bloque disponible">
+            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Disponible">
             </div>
-            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Bloque disponible">
+            <div class="student-box locked" data-bs-toggle="tooltip" data-bs-placement="top" title="Disponible">
             </div>
 
             <!-- Duplica según estudiantes -->
@@ -279,6 +287,14 @@
                         <p class="small text-muted mb-0">
                             Comunidad activa alrededor del mundo
                         </p>
+                        <p class="mb-1 d-flex align-items-center gap-2 justify-content-center">
+                            <span class="fi fi-co"></span>
+                            <span class="fi fi-mx"></span>
+                            <span class="fi fi-pe"></span>
+                            <span class="fi fi-bo"></span>
+                            <span class="fi fi-ec"></span>
+                            <span class="fi fi-ve"></span>
+                        </p>
                     </div>
                 </div>
             </div>
@@ -286,6 +302,39 @@
         </div>
     </section>
 
+
+
+    <div class="modal fade" id="studentModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content text-center">
+                <!-- Header con X en la esquina superior derecha -->
+                <div class="modal-header border-0">
+                    <button type="button" class="btn-close ms-auto" data-bs-dismiss="modal" aria-label="Cerrar">
+                    </button>
+                </div>
+                <div class="modal-body p-4">
+
+                    <img id="modalAvatar" class="rounded-circle mb-3" width="120" height="120" alt="Avatar" />
+
+                    <h5 id="modalName" class="mb-1"></h5>
+                    <p id="modalRole" class="text-muted small"></p>
+
+                    <span class="badge bg-success mb-3">Estudiante activo</span>
+
+                    <div class="d-flex justify-content-center gap-3 mt-3">
+                        <a id="modalGithub" href="#" target="_blank">GitHub</a>
+                        <a id="modalLinkedin" href="#" target="_blank">LinkedIn</a>
+                        <a id="modalCodepen" href="#" target="_blank">Codepen</a>
+                    </div>
+
+                    <button type="button" class="btn btn-outline-secondary mt-4" data-bs-dismiss="modal">
+                        Cerrar
+                    </button>
+
+                </div>
+            </div>
+        </div>
+    </div>
 
 
     <!-- Footer -->
